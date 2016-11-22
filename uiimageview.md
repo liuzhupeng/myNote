@@ -134,7 +134,7 @@ toolBar.alpha = 0.9
 
 \[imageView addSubView:toolBar\]
 
-\`\`\`
+```
 
 ## 加载图片的方式：
 
