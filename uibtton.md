@@ -25,7 +25,6 @@
 
 * 设置按钮在不同状态下的背景图片
 
-
 （为了保证高亮状态下的图片正常显示，必须设置按钮的type为custom 
 
 ## 按钮的样式
@@ -36,12 +35,36 @@ UIButtonTypeCustom：无类型，按钮的内容需要自定义
 UIButtonTypeDetailDisclosure： 
 UIButtonTypeInfoLight： 
 UIButtonTypeInfoDark： 
-UIButtonTypeContactAdd： 
+UIButtonTypeContactAdd：
 
-## UIButton的常见设置 
+## UIButton的常见设置
+
+- \(void\)setTitle:\(NSString \*\)title forState:\(UIControlState\)state;
+设置按钮的文字
+
+- \(void\)setTitleColor:\(UIColor \*\)color forState:\(UIControlState\)state;
+设置按钮的文字颜色
+
+- \(void\)setImage:\(UIImage \*\)image forState:\(UIControlState\)state; 
+设置按钮内部的小图片
+
+- \(void\)setBackgroundImage:\(UIImage \*\)image forState:\(UIControlState\)state;
+设置按钮的背景图片
+
+##  UIButton、UIImageView、UILabel的选择
+
+* UIButton
+  特点
+  既能显示文字，又能显示图片（能显示2张图片，背景图片、内容图片）
+  长按高亮的时候可以切换图片\文字
+  直接通过addTarget...方法监听点击
+
+  UIImageView
+  能显示图片，不能直接通过addTarget...方法监听点击
 
 
-
+* UILabel
+  能显示文字，不能直接通过addTarget...方法监听点击
 
 
 
