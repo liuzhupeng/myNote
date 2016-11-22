@@ -2,23 +2,23 @@
 
 #### lnormal（普通状态）
 
-* Ø默认情况（Default）
+* 默认情况（Default）
 
-* Ø对应的枚举常量：UIControlStateNormal
+* 对应的枚举常量：UIControlStateNormal
 
 
 #### lhighlighted（高亮状态）
 
-* Ø按钮被按下去的时候（手指还未松开）
+* 按钮被按下去的时候（手指还未松开）
 
-* Ø对应的枚举常量：UIControlStateHighlighted
+* 对应的枚举常量：UIControlStateHighlighted
 
 
 #### ldisabled（失效状态，不可用状态）
 
-* Ø如果enabled属性为NO，就是处于disable状态，代表按钮不可以被点击
+* 如果enabled属性为NO，就是处于disable状态，代表按钮不可以被点击
 
-* Ø对应的枚举常量：UIControlStateDisabled
+* 对应的枚举常量：UIControlStateDisabled
 
 
 ## 设置按钮的背景图片
@@ -74,6 +74,8 @@ UIButtonTypeContactAdd：
   * 建议选择UIButton
 
   * 其实UIImageView、UILabel也可以通过手势识别器来监听（后面课程会学）
+
+
 * 长按控件后，会改变显示的内容
 
   * 不用考虑了，选择UIButton（因为UIButton有highlighted这种状态）
