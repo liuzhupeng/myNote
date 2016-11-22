@@ -97,8 +97,8 @@ toolBar.alpha = 0.9
     NNstring *path = [[NSBundle mainBundle] pathForResource:@"1" ofType:@"png"];
     self.imageView.image = [UIImage imageWithContentsOfFile:path]
     ```
-####图片动画
 
+####图片动画
 多张图片形成动画
 
 ```
