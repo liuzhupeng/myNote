@@ -98,8 +98,11 @@ toolBar.alpha = 0.9
     self.imageView.image = [UIImage imageWithContentsOfFile:path]
     ```
 
-####图片动画
-- 多张图片形成动画
+
+
+#### 图片动画
+
+* 多张图片形成动画
 
 ```
 
@@ -144,7 +147,41 @@ toolBar.alpha = 0.9
 }
 
 ```
+###图片的两种加载方式：
 
+- 1> imageNamed
 
+ - a.就算指向它的指针被销毁，该资源也不会被从内存中干掉
 
+ - b.放到Assets.xcassets的图片，默认就有缓存
+
+ - c.图片经常被使用
+
+- 2>imageWithContentsOfFile:
+
+ - a.指向它的指针被销毁，该资源会被从内存中干掉
+
+ - b.放到项目中的图片就不由缓存
+
+ - c.不经常用，大批量的图片
+
+```
+
+方法一：
+
+NSString *imageName = [NSString stringWithFormat:@"stand_%d",i+1];
+
+//创建UIImage
+
+UIImage *image = [UIImage imageNamed:imageName];
+
+方法二：
+
+NSString *imagePath = [[NSBundle mainBundle] pathForResource:imageName ofType:@"png"];
+
+UIImage *image = [UIImage imageWithContentsOfFile:imagePath];
+
+self.standImages = nil
+
+```
 
