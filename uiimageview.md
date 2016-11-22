@@ -83,9 +83,11 @@ toolBar.alpha = 0.9
   * 4&gt; 不能通过imageWithContentsOfFile:来加载图片
 
 * 2.放到项目中的图片
+
   * 1&gt; 可以拿到路径
   * 2&gt; 能通过imageNamed:来加载图片
   * 3&gt; 也能通过imageWithContentsOfFile:来加载图片
+
     ```
     //图片设置方式
     //方式一
@@ -95,30 +97,54 @@ toolBar.alpha = 0.9
     NNstring *path = [[NSBundle mainBundle] pathForResource:@"1" ofType:@"png"];
     self.imageView.image = [UIImage imageWithContentsOfFile:path]
     ```
+####图片动画
 
-    \#\#\#\#图片动画 
-    多张图片形成动画
-    \`\`\`
-    - \(IBAction\)stand{
-        \/\/1.加载所有的图片
-        NSMutableArray&lt;UIImage \*&gt; \*standImages = \[NSMutableArray array\]
-        for\(int i=0;i&lt;10;i++\){
-            \/\/获取所有图片的名称
-            NSString \*imageName = \[NSString stringWithFormat:@"stand\_%d",i+1\];
-            \/\/创建UIImage
-            UIImage \*image = \[UIImage imageNamed:imageName\];
-            \/\/装入数组
-            \[standImages addObject:image\]
-        }
-        \/\/2.设置动画图片
-        self.imageView.animationImages = standImages;
-        \/\/3.设置播放次数
-        self.imageView.animationRepeatCount = 0;
-        \/\/4.设置播放的时长
-        self.imageView.animationDurantion = 0.6
-        \/\/5.播放
-        \[self.imageView.startAnimating\];
-    }
-    \`\`\`
+多张图片形成动画
+
+```
+
+- (IBAction)stand{
+
+ //1.加载所有的图片
+
+ NSMutableArray<UIImage *> *standImages = [NSMutableArray array]
+
+ for(int i=0;i<10;i++){
+
+ //获取所有图片的名称
+
+ NSString *imageName = [NSString stringWithFormat:@"stand_%d",i+1];
+
+ //创建UIImage
+
+ UIImage *image = [UIImage imageNamed:imageName];
+
+ //装入数组
+
+ [standImages addObject:image]
+
+ }
+
+ //2.设置动画图片
+
+ self.imageView.animationImages = standImages;
+
+ //3.设置播放次数
+
+ self.imageView.animationRepeatCount = 0;
+
+ //4.设置播放的时长
+
+ self.imageView.animationDurantion = 0.6
+
+ //5.播放
+
+ [self.imageView.startAnimating];
+
+}
+
+```
+
+
 
 
