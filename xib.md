@@ -14,10 +14,10 @@
 ###Xib的加载
 - 方法1
 
-NSArray *views = [[NSBundle mainBundle] loadNibNamed:@"xib文件名" owner:nil options:nil]
+    NSArray *views = [[NSBundle mainBundle                loadNibNamed:@"xib文件名" owner:nil options:nil]
 - 方法2
 
-UINib *nib = [UINib nibWithNibName:@"xib文件名" bundle:nil];
+    UINib *nib = [UINib nibWithNibName:@"xib文件名" bundle:nil];
 
-NSArray *views = [nib instantiateWithOwner:nil options:nil];
+    NSArray *views = [nib instantiateWithOwner:nil options:nil];
 
