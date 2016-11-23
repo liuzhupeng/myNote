@@ -24,4 +24,5 @@
         * [2.xib关联的类XMGShopView](2xib关联的类xmgshopview.md)
         * [3.引用xib的controller](3引用xib的controller.md)
 * [IOS中的渐变动画](ios中的渐变动画.md)
+    * [购物车提示 UILabel](购物车提示-uilabel.md)
 
