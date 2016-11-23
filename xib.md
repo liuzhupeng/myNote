@@ -11,3 +11,13 @@
     - Xib是轻量级的，用来描述局部的UI界面
     - Storyboard是重量级的，用来描述整个软件的多个界面，并且能展示多个界面之间的跳转关系
 
+###Xib的加载
+- 方法1
+
+NSArray *views = [[NSBundle mainBundle] loadNibNamed:@"xib文件名" owner:nil options:nil]
+- 方法2
+
+UINib *nib = [UINib nibWithNibName:@"xib文件名" bundle:nil];
+
+NSArray *views = [nib instantiateWithOwner:nil options:nil];
+
