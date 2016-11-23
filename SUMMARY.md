@@ -22,4 +22,5 @@
     * [购物车xib](购物车xib.md)
         * [1.model\(XMGShop\)](1modelxmgshop.md)
         * [2.xib关联的类XMGShopView](2xib关联的类xmgshopview.md)
+        * [3.引用xib的controller](3引用xib的controller.md)
 
