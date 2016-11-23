@@ -42,17 +42,10 @@
 //- (void)awakeFromNib
 
 - (void)setShop:(XMGShop *)shop{
-
  _shop = shop;
-
-
-
  // 设置子控件的数据
-
  self.iconView.image = [UIImage imageNamed:shop.icon];
-
  self.titlelabel.text = shop.name;
-
 }
 
 @end
