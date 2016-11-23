@@ -1,4 +1,23 @@
+##xib关联的类
+
 ```
+#import <UIKit/UIKit.h>
+
+@interface XMGShopView : UIView
+
+// 提供set方法
+
+- (void)setIcon: (NSString *)icon;
+
+- (void)setName: (NSString *)name;
+
+// 提供快速创建方法
+
++ (instancetype)shopView;
+
+@end
+
+##################################
 /**
 
  xib使用注意事项:
