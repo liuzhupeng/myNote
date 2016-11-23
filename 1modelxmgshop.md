@@ -1,3 +1,5 @@
+###头文件
+```
 #import <Foundation/Foundation.h>
 
 @interface XMGShop : NSObject
@@ -25,3 +27,7 @@
 + (instancetype)shopWithDict:(NSDictionary *)dict;
 
 @end
+```
+---
+
+
