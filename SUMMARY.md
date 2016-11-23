@@ -21,4 +21,5 @@
     * [通过xib自定义商品的View](通过xib自定义商品的view.md)
     * [购物车xib](购物车xib.md)
         * [1.model\(XMGShop\)](1modelxmgshop.md)
+        * [2.xib关联的类XMGShopView](2xib关联的类xmgshopview.md)
 
