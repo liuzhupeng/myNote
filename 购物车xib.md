@@ -1,1 +1,1 @@
-###1.model
+###1.model  XMGShop
