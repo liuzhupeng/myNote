@@ -19,5 +19,44 @@
 ```
 ###
 ```
+#import "XMGShopView.h"
+
+#import "XMGShop.h"
+
+@interface XMGShopView ()
+
+@property (weak, nonatomic) IBOutlet UIImageView *iconView;
+
+@property (weak, nonatomic) IBOutlet UILabel *titlelabel;
+
+@end
+
+@implementation XMGShopView
+
++ (instancetype)shopView{
+
+ return [[[NSBundle mainBundle] loadNibNamed:NSStringFromClass(self) owner:nil options:nil] firstObject];
+
+}
+
+//- (void)awakeFromNib
+
+- (void)setShop:(XMGShop *)shop{
+
+ _shop = shop;
+
+
+
+ // 设置子控件的数据
+
+ self.iconView.image = [UIImage imageNamed:shop.icon];
+
+ self.titlelabel.text = shop.name;
+
+}
+
+@end
+
+
 
 ```
