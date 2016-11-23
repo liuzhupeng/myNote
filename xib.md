@@ -1,11 +1,11 @@
 ###Xib和storyboard对比
 - 共同点：
 
-Ø都用来描述软件界面
+    - 都用来描述软件界面
 
-Ø都用Interface Builder工具来编辑
+    - 都用Interface Builder工具来编辑
 
-Ø本质都是转换成代码去创建控件
+    - 本质都是转换成代码去创建控件
 
 
 - 不同点
