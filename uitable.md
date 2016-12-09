@@ -1,5 +1,10 @@
 ### Customlab
 ```
+UILabel *lab = [Customlab WithCGRect:CGRectMake(10, 12, 100, 16) Name:@"热门搜索" Color:[UIColor clearColor] FontSize:16 FontColor:@"333"];
+
+```
+
+```
 +(UILabel *)WithCGRect:(CGRect)rect Name:(NSString *)name Color:(id)color FontSize:(CGFloat)size FontColor:(NSString *)fontColor{
     
     UILabel *lab = [[UILabel alloc]initWithFrame:rect];
