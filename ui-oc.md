@@ -1,2 +1,3 @@
 - self.topView.userInteractionEnabled = YES;
 - self.tableView.contentInset = UIEdgeInsetsMake(-35, 0, 0, 0);
+- self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
