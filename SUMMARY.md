@@ -7,6 +7,7 @@
         * [tableView添加上下拉刷新](tableview添加上下拉刷新.md)
     * [UITable](uitable.md)
     * [UICollectionViewFlowLayout](uicollectionviewflowlayout.md)
+    * [轮转图片](轮转图片.md)
 * [Label](label.md)
 * [加法器](chapter1.md)
 * [UIImageView](uiimageview.md)
