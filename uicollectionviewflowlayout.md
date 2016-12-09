@@ -53,17 +53,11 @@ self.collectionView = [[UICollectionView alloc]initWithFrame:CGRectMake(10, 15, 
 - cell 实现
 ```
 #import <UIKit/UIKit.h>
-
 @interface CityListCollectionViewCell : UICollectionViewCell
-
 @property (weak, nonatomic) IBOutlet UIImageView *backImageV;
-
 @property (weak, nonatomic) IBOutlet UILabel *nameLab;
-
 @property (weak, nonatomic) IBOutlet UILabel *pinYinLab;
-
 @property (weak, nonatomic) IBOutlet UIView *mengBanView;
-
 @end
 
 ```
