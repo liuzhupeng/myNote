@@ -2,6 +2,9 @@
 
 * [MAC虚拟机配置](mac虚拟机配置.md)
 * [UI\(swift\)](README.md)
+* [UI \(OC\)](ui-oc.md)
+    * [tableVIew](tableview.md)
+    * [UITable](uitable.md)
 * [Label](label.md)
 * [加法器](chapter1.md)
 * [UIImageView](uiimageview.md)
@@ -24,6 +27,5 @@
         * [1.model\(XMGShop\)](1modelxmgshop.md)
         * [2.xib关联的类XMGShopView](2xib关联的类xmgshopview.md)
         * [3.引用xib的controller](3引用xib的controller.md)
-* [IOS中的渐变动画](ios中的渐变动画.md)
-    * [购物车提示 UILabel](购物车提示-uilabel.md)
+* UI \(OC\)
 
