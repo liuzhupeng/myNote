@@ -30,4 +30,5 @@
         * [2.xib关联的类XMGShopView](2xib关联的类xmgshopview.md)
         * [3.引用xib的controller](3引用xib的controller.md)
 * UI \(OC\)
+* 定位location
 
