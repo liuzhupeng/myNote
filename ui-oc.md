@@ -5,3 +5,6 @@
 - self.headView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, zWIDTH, 241)];
  - self.tableView.tableHeaderView = self.headView;
 - UIView *footV = [[UIView alloc]initWithFrame:CGRectMake(0, 0, zWIDTH, 160)];
+-  //尾部视图------------------
+ - UIView *footV = [[UIView alloc]initWithFrame:CGRectMake(0, 0, zWIDTH, 160)];
+ - self.tableView.tableFooterView = footV;
