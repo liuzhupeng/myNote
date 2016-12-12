@@ -9,6 +9,8 @@
     * [UICollectionViewFlowLayout](uicollectionviewflowlayout.md)
     * [轮转图片](轮转图片.md)
     * [UITextView](uitextview.md)
+* [OC](oc.md)
+    * [日期](日期.md)
 * [Label](label.md)
 * [加法器](chapter1.md)
 * [UIImageView](uiimageview.md)
@@ -31,6 +33,6 @@
         * [1.model\(XMGShop\)](1modelxmgshop.md)
         * [2.xib关联的类XMGShopView](2xib关联的类xmgshopview.md)
         * [3.引用xib的controller](3引用xib的controller.md)
-* UI \(OC\)
-* [定位location](定位location.md)
+* [UI \(OC\)](ui-oc.md)
+* OC
 
