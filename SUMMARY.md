@@ -8,6 +8,7 @@
     * [UITable](uitable.md)
     * [UICollectionViewFlowLayout](uicollectionviewflowlayout.md)
     * [轮转图片](轮转图片.md)
+    * [UITextView](uitextview.md)
 * [Label](label.md)
 * [加法器](chapter1.md)
 * [UIImageView](uiimageview.md)
