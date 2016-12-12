@@ -19,4 +19,6 @@
 #### 二、OC
 
 - _titleLab.text = [NSString stringWithFormat:@"%@年,%@月",@(self.year),@(self.month)];
--  NSArray *tmparr =  @[@"日",@"一",@"二",@"三",@"四",@"五",@"六"];
+- 获取数组第i个值
+ -  NSArray *tmparr =  @[@"日",@"一",@"二",@"三",@"四",@"五",@"六"];
+ - lab.text = [tmparr objectAtIndex:i];
