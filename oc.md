@@ -4,25 +4,14 @@
 ```
 ```
 - (void)showPercent
-
 {
-
  self.percent += 5;
-
  [self showProgress:self.percent];
-
-
-
  if (self.percent == 100) {
-
  [self.timer invalidate];
-
  self.timer = nil;
-
  [self dismissLoading];
-
  }
-
 }
 
 ```
