@@ -9,5 +9,9 @@
  - UIView *footV = [[UIView alloc]initWithFrame:CGRectMake(0, 0, zWIDTH, 160)];
  - self.tableView.tableFooterView = footV;
 - cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator; //cell右侧箭头
+-  //移除之前子视图
+   - [_dateBgView.subviews enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
+        [obj removeFromSuperview];
+    }];
 ## OC
 - _titleLab.text = [NSString stringWithFormat:@"%@年,%@月",@(self.year),@(self.month)];
