@@ -4,3 +4,4 @@
 - self.tableView.tableFooterView = [[UIView alloc] initWithFrame:CGRectZero];  //去掉下面多余的线
 - self.headView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, zWIDTH, 241)];
  - self.tableView.tableHeaderView = self.headView;
+
