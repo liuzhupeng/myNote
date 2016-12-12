@@ -8,3 +8,4 @@
 -  //尾部视图------------------
  - UIView *footV = [[UIView alloc]initWithFrame:CGRectMake(0, 0, zWIDTH, 160)];
  - self.tableView.tableFooterView = footV;
+- cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator; //cell右侧箭头
