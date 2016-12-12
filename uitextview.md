@@ -13,21 +13,12 @@ self.textView = [[UITextView alloc]initWithFrame:CGRectMake(10, 40, zWIDTH - 20,
 ```
 ```
 #pragma mark --textView delegate--
-
 -(void)textViewDidChange:(UITextView *)textView {
-
-
-
  if (textView.text.length == 0) {
-
  self.placeHoldLab.hidden = NO;
-
  }else {
-
  self.placeHoldLab.hidden = YES;
-
  }
-
 }
 
 ```
