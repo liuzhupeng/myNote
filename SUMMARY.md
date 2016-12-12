@@ -12,6 +12,7 @@
 * [OC](oc.md)
     * [日期](日期.md)
     * 不断重复执行一个方法
+* [ALiProgressHUD 自定义](aliprogresshud-自定义.md)
 * [Label](label.md)
 * [加法器](chapter1.md)
 * [UIImageView](uiimageview.md)
@@ -35,5 +36,5 @@
         * [2.xib关联的类XMGShopView](2xib关联的类xmgshopview.md)
         * [3.引用xib的controller](3引用xib的controller.md)
 * [UI \(OC\)](ui-oc.md)
-* OC
+* [ALiProgressHUD 自定义](aliprogresshud-自定义.md)
 
