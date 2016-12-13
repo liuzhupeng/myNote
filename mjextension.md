@@ -75,6 +75,13 @@ void test()
     
     NSLog(@"------");
 }
+```
+- HWPerson.h
+```
+#import <Foundation/Foundation.h>
 
-
+@interface HWPerson : NSObject
+@property (nonatomic, copy) NSString *name;
+@property (nonatomic, strong) NSArray *books;
+@end
 ```
