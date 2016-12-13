@@ -77,11 +77,27 @@ void test()
 }
 ```
 - HWPerson.h
+
 ```
 #import <Foundation/Foundation.h>
 
 @interface HWPerson : NSObject
 @property (nonatomic, copy) NSString *name;
 @property (nonatomic, strong) NSArray *books;
+@end
+```
+- HWPerson.m
+```
+#import "HWPerson.h"
+#import "MJExtension.h"
+#import "HWBook.h"
+
+@implementation HWPerson
+
+- (NSDictionary *)objectClassInArray
+{
+    return @{@"books" : [HWBook class]};
+}
+
 @end
 ```
