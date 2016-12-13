@@ -33,7 +33,7 @@ NSString *path = [[NSBundle mainBundle]pathForResource:@"Notes" ofType:@"json"];
 NSDictionary *status = json[@"username"]
 NSDictionary *user = status[@"user"];
 NSString * username = status[@"username"];
------
+-----json 放到数组中
 NSMutableArray*statuses = [[NSMutableArray alloc]init];
 for (NSDictionary *dict in dicArray){
     HWStatus *status = [HWStatus statusWithDict:dict];
