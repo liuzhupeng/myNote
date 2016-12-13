@@ -40,3 +40,4 @@ for (NSDictionary *dict in dicArray){
 [slef.statuses addObject:status];
 }
 ```
+
