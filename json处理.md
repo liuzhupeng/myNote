@@ -34,8 +34,9 @@ NSDictionary *status = json[@"username"]
 NSDictionary *user = status[@"user"];
 NSString * username = status[@"username"];
 -----
+NSMutableArray*statuses = [[NSMutableArray alloc]init];
 for (NSDictionary *dict in dicArray){
     HWStatus *status = [HWStatus statusWithDict:dict];
-[slef.status addObject:status];
+[slef.statuses addObject:status];
 }
 ```
