@@ -102,3 +102,12 @@ void test()
 
 @end
 ```
+- HWBook.h
+```
+#import <Foundation/Foundation.h>
+
+@interface HWBook : NSObject
+@property (nonatomic, copy) NSString *name;
+@property (nonatomic, assign) double  price;
+@end
+```
