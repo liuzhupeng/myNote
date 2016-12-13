@@ -10,3 +10,21 @@
 // 累加到旧数组的后面
   [self.topics addObjectsFromArray:moreTopics];
 ```
+```
+// 将 "微博字典"数组 转为 "微博模型"数组
+   NSArray *newStatuses = [HWStatus objectArrayWithKeyValuesArray:statuses];
+   NSArray *newFrames = [self stausFramesWithStatuses:newStatuses];
+// 将更多的微博数据，添加到总数组的最后面
+[self.statusFrames addObjectsFromArray:newFrames];
+```
+####NSJONSerialization
+```
+NSString *path = [[NSBundle mainBundle]pathForResource:@"Notes" ofType:@"json"];
+    NSData * jsonData = [[NSData alloc]initWithContentsOfFile:path];
+    NSError *error;
+    id jsonObj = [NSJSONSerialization JSONObjectWithData:jsonData options:NSJSONReadingMutableContainers error:&error];
+    if(!jsonObj || error){
+        NSLog(@"JSON解码失败")；
+    }
+    self.objects = [jsonObj objectForKey:@"Record"];
+```
