@@ -1,3 +1,4 @@
+##cookie
 ```
  //cookie存储
     NSData * cookiesData = [NSKeyedArchiver archivedDataWithRootObject: [[NSHTTPCookieStorage sharedHTTPCookieStorage] cookies]];
