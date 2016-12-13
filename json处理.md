@@ -30,6 +30,8 @@ NSString *path = [[NSBundle mainBundle]pathForResource:@"Notes" ofType:@"json"];
     self.objects = [jsonObj objectForKey:@"Record"];
 ```
 ```
-MYLog(@"username = %@",json[@"username"]);
+NSDictionary *status = json[@"username"]
+NSDictionary *user = status[@"user"];
+NSString * username = status[@"username"];
 
 ```
