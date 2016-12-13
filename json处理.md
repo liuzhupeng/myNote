@@ -6,3 +6,7 @@
  self.topics = [XMGTopic mj_objectArrayWithKeyValuesArray:responseObject[@"list"]];
 }
 ```
+```
+// 累加到旧数组的后面
+  [self.topics addObjectsFromArray:moreTopics];
+```
