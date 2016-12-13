@@ -22,7 +22,7 @@
 NSString *path = [[NSBundle mainBundle]pathForResource:@"Notes" ofType:@"json"];
     NSData * jsonData = [[NSData alloc]initWithContentsOfFile:path];
     NSError *error;
-//id -- NSDICtionary
+//id -- NSDictionary
     id jsonObj = [NSJSONSerialization JSONObjectWithData:jsonData options:NSJSONReadingMutableContainers error:&error];
     if(!jsonObj || error){
         NSLog(@"JSON解码失败")；
