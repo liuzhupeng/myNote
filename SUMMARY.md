@@ -46,4 +46,6 @@
         * [3.引用xib的controller](3引用xib的controller.md)
 * [UI \(OC\)](ui-oc.md)
 * [ALiProgressHUD 自定义](aliprogresshud-自定义.md)
+* [cookie](cookie.md)
+    * [AFNetworking发送post请求时怎么设置cookie](afnetworking发送post请求时怎么设置cookie.md)
 
