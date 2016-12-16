@@ -9,6 +9,8 @@
 ```
 // 累加到旧数组的后面
   [self.topics addObjectsFromArray:moreTopics];
+//获取json中第n个数据
+self.codeStr = [json[@"message"] substringFromIndex:4];
 ```
 ```
 // 将 "微博字典"数组 转为 "微博模型"数组
