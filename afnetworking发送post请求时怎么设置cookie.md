@@ -1,4 +1,5 @@
 - AFNetworking发送post请求时怎么设置cookie
+
 ```
 //发送post请求的同时传入cookie
 + (void)requestCookieWithPath:(NSString *)path
